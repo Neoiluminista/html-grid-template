@@ -1,0 +1,111 @@
+#grid {
+    display: grid;
+    grid-template-areas: "top" "bot";
+    grid-template-rows: 8vh 92vh;
+}
+
+#top {
+    grid-area: "top";
+    background-color: aquamarine;
+}
+
+#bot {
+    grid-area: "bot";
+    display: grid;
+    grid-template-areas: "left right";
+    grid-template-columns: 10% 90%;
+}
+    #bot.left-untoggled {
+        animation: untoggleLeft .15s;
+        grid-template-columns: 5% 95%;
+    }
+    #bot.left-toggled {
+        animation: toggleLeft .15s;
+        grid-template-columns: 10% 90%;
+    }
+
+#left {
+    grid-area: "left";
+    background-color: cornflowerblue;
+}
+
+#right {
+    grid-area: "right";
+    display: grid;
+    grid-template-areas: "mid" "footer";
+    grid-template-rows: 92% 8%;
+}
+
+#mid {
+    grid-area: "mid";
+    display: grid;
+    grid-template-areas: "main side";
+    grid-template-columns: 90% 10%;
+}
+
+#footer {
+    grid-area: "footer";
+    background-color: aquamarine;
+}
+
+#main {
+    grid-area: "main";
+    background-color: darksalmon;
+}
+
+#side {
+    grid-area: "side";
+    background-color: cornflowerblue;
+}
+
+@media  screen and (max-width: 1366px) {
+    #grid {
+        grid-template-rows: 10vh 90vh;
+    }
+    
+    #bot {
+        grid-template-columns: 13% 87%;
+    }
+        #bot.left-untoggled {
+            animation: untoggleLeft .1s;
+            grid-template-columns: 7% 93%;
+        }
+        #bot.left-toggled {
+            animation: toggleLeft .1s;
+            grid-template-columns: 13% 87%;
+        }
+
+    #right {
+        grid-template-areas: "mid" "footer";
+        grid-template-rows: 90% 10%;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .vertical-text {
+        width: 1px;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+    }
+
+}
+
+@media  screen and (max-width: 425px) {
+    #grid {
+        grid-template-rows: 10vh 90vh;
+    }
+    
+    #bot {
+        grid-template-areas: "right";
+        grid-template-columns: 100%;
+    }
+
+    #right {
+        grid-template-areas: "mid" "footer";
+        grid-template-rows: 90% 10%;
+    }
+
+    #left, #toggle-left {
+        display: none !important;
+    }
+}

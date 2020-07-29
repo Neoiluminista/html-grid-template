@@ -1,0 +1,98 @@
+@keyframes untoggleLeft {
+    0%   {grid-template-columns: 10%     90%}
+    5%   {grid-template-columns: 09.7% 90.3%}
+    10%  {grid-template-columns: 09.5% 90.5%}
+    15%  {grid-template-columns: 09.2% 90.8%}
+    20%  {grid-template-columns: 09%     91%}
+    25%  {grid-template-columns: 08.7% 91.3%}
+    30%  {grid-template-columns: 08.5% 91.5%}
+    35%  {grid-template-columns: 08.2% 91.8%}
+    40%  {grid-template-columns: 08%     92%}
+    45%  {grid-template-columns: 07.7% 92.3%}
+    50%  {grid-template-columns: 07.5% 92.5%}
+    55%  {grid-template-columns: 07.2% 92.8%}
+    60%  {grid-template-columns: 07%     93%}
+    65%  {grid-template-columns: 06.7% 93.3%}
+    70%  {grid-template-columns: 06.5% 93.5%}
+    75%  {grid-template-columns: 06.2% 93.8%}
+    80%  {grid-template-columns: 06%     94%}
+    95%  {grid-template-columns: 05.7% 94.3%}
+    90%  {grid-template-columns: 05.5% 94.5%}
+    95%  {grid-template-columns: 05.2% 94.8%}
+    100% {grid-template-columns: 05%     95%}
+}
+
+@keyframes toggleLeft {
+    100% {grid-template-columns: 10%     90%}
+    95%  {grid-template-columns: 09.7% 90.3%}
+    90%  {grid-template-columns: 09.5% 90.5%}
+    85%  {grid-template-columns: 09.2% 90.8%}
+    80%  {grid-template-columns: 09%     91%}
+    75%  {grid-template-columns: 08.7% 91.3%}
+    70%  {grid-template-columns: 08.5% 91.5%}
+    65%  {grid-template-columns: 08.2% 91.8%}
+    60%  {grid-template-columns: 08%     92%}
+    55%  {grid-template-columns: 07.7% 92.3%}
+    50%  {grid-template-columns: 07.5% 92.5%}
+    45%  {grid-template-columns: 07.2% 92.8%}
+    40%  {grid-template-columns: 07%     93%}
+    35%  {grid-template-columns: 06.7% 93.3%}
+    30%  {grid-template-columns: 06.5% 93.5%}
+    25%  {grid-template-columns: 06.2% 93.8%}
+    20%  {grid-template-columns: 06%     94%}
+    15%  {grid-template-columns: 05.7% 94.3%}
+    10%  {grid-template-columns: 05.5% 94.5%}
+    5%   {grid-template-columns: 05.2% 94.8%}
+    0%   {grid-template-columns: 05%     95%}
+}
+
+
+@media  screen and (max-width: 1366px) {
+    @keyframes untoggleLeft {
+        0%   {grid-template-columns: 13%     87%}
+        5%   {grid-template-columns: 12.7% 87.3%}
+        10%  {grid-template-columns: 12.5% 87.5%}
+        15%  {grid-template-columns: 12.2% 87.8%}
+        20%  {grid-template-columns: 12%     88%}
+        25%  {grid-template-columns: 11.7% 88.3%}
+        30%  {grid-template-columns: 11.5% 88.5%}
+        35%  {grid-template-columns: 11.2% 88.8%}
+        40%  {grid-template-columns: 11%     99%}
+        45%  {grid-template-columns: 10.7% 89.3%}
+        50%  {grid-template-columns: 10.5% 89.5%}
+        55%  {grid-template-columns: 10.2% 89.8%}
+        60%  {grid-template-columns: 10%     90%}
+        65%  {grid-template-columns: 09.7% 90.3%}
+        70%  {grid-template-columns: 09.5% 90.5%}
+        75%  {grid-template-columns: 09.2% 90.8%}
+        80%  {grid-template-columns: 08.5% 91.5%}
+        95%  {grid-template-columns: 08.2% 91.8%}
+        90%  {grid-template-columns: 08%     92%}
+        95%  {grid-template-columns: 08.6% 92.4%}
+        100% {grid-template-columns: 07%     93%}
+    }
+    
+    @keyframes toggleLeft {
+        100% {grid-template-columns: 13%     87%}
+        95%  {grid-template-columns: 12.7% 87.3%}
+        90%  {grid-template-columns: 12.5% 87.5%}
+        85%  {grid-template-columns: 12.2% 87.8%}
+        80%  {grid-template-columns: 12%     88%}
+        75%  {grid-template-columns: 11.7% 88.3%}
+        70%  {grid-template-columns: 11.5% 88.5%}
+        65%  {grid-template-columns: 11.2% 88.8%}
+        60%  {grid-template-columns: 11%     89%}
+        55%  {grid-template-columns: 10.7% 89.3%}
+        50%  {grid-template-columns: 10.5% 89.5%}
+        45%  {grid-template-columns: 10.2% 89.8%}
+        40%  {grid-template-columns: 10%     90%}
+        35%  {grid-template-columns: 09.7% 90.3%}
+        30%  {grid-template-columns: 09.5% 90.5%}
+        25%  {grid-template-columns: 09.2% 90.8%}
+        20%  {grid-template-columns: 08.5% 91.5%}
+        15%  {grid-template-columns: 08.2% 91.8%}
+        10%  {grid-template-columns: 08%     92%}
+        5%   {grid-template-columns: 08.6% 92.4%}
+        0%   {grid-template-columns: 07%     93%}
+    }
+}
