@@ -1,6 +1,0 @@
-.inner-container{width:100%!important;height:100%!important;overflow:hidden}
-.inner-container-h{width:90%!important;height:95%!important;overflow:hidden}
-.inner-container-w{width:95%!important;height:90%!important;overflow:hidden}
-.outer-container{display:flex!important;justify-content:center!important;align-items:center!important;align-content:center!important}
-.right-arrow::after{font-weight:900;content:'\f105';font-family:'Font Awesome 5 Free'}
-.left-arrow::after{font-weight:900;content:'\f104';font-family:'Font Awesome 5 Free'}

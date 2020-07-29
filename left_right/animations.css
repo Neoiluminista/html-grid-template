@@ -1,0 +1,47 @@
+@keyframes untoggleLeft {
+    0%   {grid-template-columns: 15vw     85vw}
+    5%   {grid-template-columns: 14.5vw 85.5vw}
+    10%  {grid-template-columns: 14vw     86vw}
+    15%  {grid-template-columns: 13.5vw 86.5vw}
+    20%  {grid-template-columns: 13vw     87vw}
+    25%  {grid-template-columns: 12.5vw 87.5vw}
+    30%  {grid-template-columns: 12vw     88vw}
+    35%  {grid-template-columns: 11.5vw 88.5vw}
+    40%  {grid-template-columns: 11vw     89vw}
+    45%  {grid-template-columns: 10.5vw 89.5vw}
+    50%  {grid-template-columns: 10vw     90vw}
+    55%  {grid-template-columns: 9.5vw  90.5vw}
+    60%  {grid-template-columns: 9vw      91vw}
+    65%  {grid-template-columns: 8.5vw  91.5vw}
+    70%  {grid-template-columns: 8vw      92vw}
+    75%  {grid-template-columns: 7.5vw  92.5vw}
+    80%  {grid-template-columns: 7vw      93vw}
+    95%  {grid-template-columns: 6.5vw  93.5vw}
+    90%  {grid-template-columns: 6vw      94vw}
+    95%  {grid-template-columns: 5.5vw  94.5vw}
+    100% {grid-template-columns: 5vw      95vw}
+}
+
+@keyframes toggleLeft {
+    100% {grid-template-columns: 15vw     85vw}
+    95%  {grid-template-columns: 14.5vw 85.5vw}
+    90%  {grid-template-columns: 14vw     86vw}
+    85%  {grid-template-columns: 13.5vw 86.5vw}
+    80%  {grid-template-columns: 13vw     87vw}
+    75%  {grid-template-columns: 12.5vw 87.5vw}
+    70%  {grid-template-columns: 12vw     88vw}
+    65%  {grid-template-columns: 11.5vw 88.5vw}
+    60%  {grid-template-columns: 11vw     89vw}
+    55%  {grid-template-columns: 10.5vw 89.5vw}
+    50%  {grid-template-columns: 10vw     90vw}
+    45%  {grid-template-columns: 9.5vw  90.5vw}
+    40%  {grid-template-columns: 9vw      91vw}
+    35%  {grid-template-columns: 8.5vw  91.5vw}
+    30%  {grid-template-columns: 8vw      92vw}
+    25%  {grid-template-columns: 7.5vw  92.5vw}
+    20%  {grid-template-columns: 7vw      93vw}
+    15%  {grid-template-columns: 6.5vw  93.5vw}
+    10%  {grid-template-columns: 6vw      94vw}
+    5%   {grid-template-columns: 5.5vw  94.5vw}
+    0%   {grid-template-columns: 5vw      95vw}
+}

@@ -1,0 +1,47 @@
+@keyframes untoggleLeft {
+    0%   {grid-template-columns: 10%  80%   10%}
+    5%   {grid-template-columns: 9.7% 80.3% 10%}
+    10%  {grid-template-columns: 9.5% 80.5% 10%}
+    15%  {grid-template-columns: 9.2% 80.8% 10%}
+    20%  {grid-template-columns: 9%   81%   10%}
+    25%  {grid-template-columns: 8.7% 81.3% 10%}
+    30%  {grid-template-columns: 8.5% 81.5% 10%}
+    35%  {grid-template-columns: 8.2% 81.8% 10%}
+    40%  {grid-template-columns: 8%   82%   10%}
+    45%  {grid-template-columns: 7.7% 82.3% 10%}
+    50%  {grid-template-columns: 7.5% 82.5% 10%}
+    55%  {grid-template-columns: 7.2% 82.8% 10%}
+    60%  {grid-template-columns: 7%   83%   10%}
+    65%  {grid-template-columns: 6.7% 83.3% 10%}
+    70%  {grid-template-columns: 6.5% 83.5% 10%}
+    75%  {grid-template-columns: 6.2% 83.8% 10%}
+    80%  {grid-template-columns: 6%   84%   10%}
+    95%  {grid-template-columns: 5.7% 84.3% 10%}
+    90%  {grid-template-columns: 5.5% 84.5% 10%}
+    95%  {grid-template-columns: 5.2% 84.8% 10%}
+    100% {grid-template-columns: 5%   85%   10%}
+}
+
+@keyframes toggleLeft {
+    100% {grid-template-columns: 10%  80%   10%}
+    95%  {grid-template-columns: 9.7% 80.3% 10%}
+    90%  {grid-template-columns: 9.5% 80.5% 10%}
+    85%  {grid-template-columns: 9.2% 80.8% 10%}
+    80%  {grid-template-columns: 9%   81%   10%}
+    75%  {grid-template-columns: 8.7% 81.3% 10%}
+    70%  {grid-template-columns: 8.5% 81.5% 10%}
+    65%  {grid-template-columns: 8.2% 81.8% 10%}
+    60%  {grid-template-columns: 8%   82%   10%}
+    55%  {grid-template-columns: 7.7% 82.3% 10%}
+    50%  {grid-template-columns: 7.5% 82.5% 10%}
+    45%  {grid-template-columns: 7.2% 82.8% 10%}
+    40%  {grid-template-columns: 7%   83%   10%}
+    35%  {grid-template-columns: 6.7% 83.3% 10%}
+    30%  {grid-template-columns: 6.5% 83.5% 10%}
+    25%  {grid-template-columns: 6.2% 83.8% 10%}
+    20%  {grid-template-columns: 6%   84%   10%}
+    15%  {grid-template-columns: 5.7% 84.3% 10%}
+    10%  {grid-template-columns: 5.5% 84.5% 10%}
+    5%   {grid-template-columns: 5.2% 84.8% 10%}
+    0%   {grid-template-columns: 5%   85%   10%}
+}

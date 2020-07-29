@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="utf-8">
-    <title>Template - Top/Bottom</title>
+    <title>Template - Left/Right</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -12,22 +12,16 @@
 </head>
 <body>
     <div id="grid">
-        <div id="top" class="outer-container">
-            <p class="mb-0">Top navbar</p>
+        <div id="left" class="outer-container">
+            <button type="button" id="toggle-left" class="btn btn-sm btn-dark" style="position: absolute; top: 40%">
+                <span id="arrow" class="left-arrow"></span>
+            </button>
+            <p class="mb-0">Left navbar</p>
         </div>
-        <div id="bot">
-            <div id="left" class="outer-container">Left navbar
-                <button type="button" id="toggle-left" class="btn btn-sm btn-dark" style="position: absolute; top: 40%">
-                    <span id="arrow" class="left-arrow"></span>
-                </button>
-            </div>
-            <div id="right">
-                <div id="mid">
-                    <div id="main" class="outer-container">Main</div>
-                    <div id="side" class="outer-container"><span class="vertical-text">Sidebar</span></div>
-                </div>
-                <div id="footer" class="outer-container">Footer</div>
-            </div>
+        <div id="right">
+            <div id="top" class="outer-container">Top navbar</div>
+            <div id="mid" class="outer-container">Main</div>
+            <div id="bot" class="outer-container">Footer</div>
         </div>
     </div>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>

@@ -2,20 +2,20 @@ let toggler = document.getElementById('toggle-left');
 toggler.addEventListener('click', toggleLeft);
 
 function toggleLeft() {
-    let bot = document.getElementById('bot');    
+    let grid = document.getElementById('grid');    
     let arrow = document.getElementById('arrow');
     
-    toggled = checkToggle(bot.className);
-
+    toggled = checkToggle(grid.className);
+    
     if (toggled) { // Shrink
-        bot.classList.add('left-untoggled'); 
-        bot.classList.remove('left-toggled'); 
+        grid.classList.add('left-untoggled'); 
+        grid.classList.remove('left-toggled'); 
         arrow.classList.add('right-arrow'); 
         arrow.classList.remove('left-arrow');
     }
     else { // Grow
-        bot.classList.add('left-toggled'); 
-        bot.classList.remove('left-untoggled'); 
+        grid.classList.add('left-toggled'); 
+        grid.classList.remove('left-untoggled'); 
         arrow.classList.add('left-arrow'); 
         arrow.classList.remove('right-arrow');
     }
